@@ -1,11 +1,11 @@
 // @flow
 import React, {Component} from 'react';
 import {Route} from 'react-router-dom';
-import {Changeset} from './views/changeset';
-import {About} from './views/about';
-import {Stats} from './views/stats';
-import {Features} from './views/features';
-import {ChangesetsList} from './views/changesets_list';
+import {Changeset} from './containers/changeset';
+import {About} from './containers/about';
+import {Stats} from './containers/stats';
+import {Features} from './containers/features';
+import {ChangesetsList} from './containers/changesets_list';
 import {Sidebar} from './components/sidebar';
 import {ToastContainer, ToastMessage} from 'react-toastr';
 import {Navbar} from './components/navbar';
